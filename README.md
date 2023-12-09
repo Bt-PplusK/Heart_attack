@@ -15,9 +15,3 @@ Model evaluation metrics: AUC score, accuracy, sensitivity, specificity
 Visualization tools: Matplotlib, Seaborn
 Docker Image and Usage
 The project provides a Dockerfile that builds a Docker image containing all the necessary dependencies and libraries for running the heart attack risk prediction model. Users can easily build and run the model by executing simple Docker commands.
-
-#Building the Docker Image:
-
-docker build -t heart_attack_risk .
-#Running the Docker Image:
-docker run -it --rm heart_attack_risk
